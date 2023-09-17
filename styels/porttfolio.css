@@ -191,11 +191,33 @@ main section {
 }
 footer{
     display: flex;
-    color: #FFF8F3;
+    gap: 100px;
+    color:darkorchid;
+    /* background-color: whitesmoke; */
     margin-top: 100px;
     margin: 130px 200px;
 }
 .section-discription{
     color: darkolivegreen;
 }
-    
+.sociol-link{
+    margin-right: 25px;
+}
+.footer-culomn{
+    width: 50%;
+    /* background-color: #FFF8F3; */
+}
+.contact input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    color: #757575;
+    border-radius: 5px;
+   color: #FFF8F3;
+   width: 100%;
+  
+}
+.footer-culomn input{
+    color:rgb(7, 175, 167);
+}
+
